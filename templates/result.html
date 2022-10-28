@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Heart Disease Prediction Website</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/styles.css') }}">
+  </head>
+  <body>
+    <header>
+      <h1>Home Page</h1>
+      <div class="nav">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li>
+            <a href="heart.html">Heart Disease Prediction</a>
+          </li>
+         
+        </ul>
+      </div>
+    </header>
+    <div class="resultclass">{{resultvalue}}</div>
+    <section class="footer">
+      </section>
+  </body>
+</html>
